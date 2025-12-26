@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section id="home" className="pt-16 bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white">
       {/* Background image */}
       <Image
-          src="public/images/IMG_1298.jpeg"
+          src="/images/IMG_1298.jpeg"
           alt="Men's coaching hero background"
           fill
           priority
