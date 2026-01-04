@@ -1,48 +1,22 @@
 export default function Hero() {
   return (
-    <section id="home" className="pt-16 bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
-        <div className="text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Guiding Men to Their<br />
-            Fullest Masculine Expression
-          </h1>
-          <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Transform your life through authentic men's work, breathwork, and personalized coaching in Pittsburgh.
-          </p>
+    <section
+      id="home"
+      className="relative pt-16 min-h-[600px] flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: 'url(/images/hero-background.jpg)' }}
+    >
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/40"></div>
 
-          {/* CTA for Open House */}
-          <div className="bg-blue-600 rounded-lg p-8 max-w-2xl mx-auto mb-8 shadow-xl">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-3">
-              Men's Group Open House
-            </h2>
-            <p className="text-xl mb-2">January 5th, 2025</p>
-            <p className="text-gray-100 mb-6">
-              Join us for an introduction to men's work and experience the power of authentic brotherhood.
-            </p>
-            <a
-              href="#contact"
-              className="inline-block bg-white text-blue-600 px-8 py-4 rounded-md font-semibold text-lg hover:bg-gray-100 transition-colors"
-            >
-              Reserve Your Spot
-            </a>
-          </div>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#services"
-              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-gray-900 transition-colors"
-            >
-              Explore Services
-            </a>
-            <a
-              href="#about"
-              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-gray-900 transition-colors"
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
+      {/* Content */}
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+        <h1 className="text-[rgb(184,144,87)] text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          For Men to be Real
+        </h1>
+        <p className="text-white text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
+          Men's groups, 1:1 coaching, and breathwork sessions to guide you to a
+          more open, performance-free relationship.
+        </p>
       </div>
     </section>
   );

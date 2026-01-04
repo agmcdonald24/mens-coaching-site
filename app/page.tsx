@@ -1,7 +1,11 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import About from "@/components/About";
+import MyStory from "@/components/MyStory";
+import WhoIWorkWith from "@/components/WhoIWorkWith";
+import WhatIOffer from "@/components/WhatIOffer";
+import WhatChanges from "@/components/WhatChanges";
+import MyBackground from "@/components/MyBackground";
+import ReadyToStart from "@/components/ReadyToStart";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -11,8 +15,12 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
-        <Services />
-        <About />
+        <MyStory />
+        <WhoIWorkWith />
+        <WhatIOffer />
+        <WhatChanges />
+        <MyBackground />
+        <ReadyToStart />
         <Contact />
       </main>
       <Footer />
