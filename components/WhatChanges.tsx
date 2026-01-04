@@ -10,17 +10,12 @@ export default function WhatChanges() {
           {/* Text */}
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              Someone I speak for intentional / significant change, I think a person when they
-              heal can start to live life. The shift is that you become begins the initiator of
-              your experience. You create the experiences that you want to have. Your relationships
-              grow and deepen. You start to feel comfortable saying yes and no to the moments in your
-              life. You build a center of self worth to stabilize and ground you. You choose from
-              alignment, not performance.
+              Greater capacity for emotional regulation - staying present when old patterns want you to run.
+              The ability to tolerate discomfort long enough to actually get what you want. The safety to take risks that once seemed impossible.
+              Deeper intimacy with yourself and others. Purpose that comes from alignment, not performance.
             </p>
             <p>
-              You build your capacity to work with difficult emotions and experiences. You recognize
-              that those difficult emotions are signs, rather than flaws. You become intentional in
-              your response.
+              This isn't about becoming superhuman. It's about becoming fully human - with all the mess, beauty, and aliveness that comes with it.
             </p>
           </div>
 

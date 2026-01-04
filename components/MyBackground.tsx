@@ -19,19 +19,20 @@ export default function MyBackground() {
           {/* Text */}
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              <strong>A men's facilitating men's groups.</strong> I spent over 12 coaching, Offering
-              practical tools and techniques to help men navigate their emotions and the world around
-              them.
+              <strong>5 years facilitating men's groups.</strong>
             </p>
             <p>
-              <strong>15 years as a pipe who has at 16 years old.</strong> This focus on a team sport
-              built my understanding for how people work on and off the field. How they connect and
-              disconnect.
+              <strong>3 years of 1:1 coaching.</strong>
             </p>
             <p>
-              <strong>A coach.</strong> I've been coaching for 4+ years now. Co-active trained. Working
-              1-on-1 with men and helping people work through the blocks that are keeping them from
-              living in alignment.
+              <strong>Oxygen Advantage certified breathwork instructor</strong>
+            </p>
+            <p>
+              <strong>Somatically trained and trauma-aware.</strong>
+            </p>
+            <p>
+              I'm not here as a guru who has it all figured out.
+              I'm here as a peer guide who's still doing the work - just a few steps ahead on the same path.
             </p>
           </div>
         </div>

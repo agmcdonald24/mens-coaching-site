@@ -28,24 +28,29 @@ export default function MyStory() {
           {/* Story Text */}
           <div className="text-white space-y-4 leading-relaxed">
             <p>
-              I was a shy child as can be seen in this. A shy nervous quiet kid who was anxious to socialize and struggled to engage
-              with my peers. This was my first introduction to the confines and expectations of masculinity. It limited my
-              authentic self expression and my ability to be real.
+              I am a kid who grew up way too fast. A kid who got stuck in development and struggled to grow up at all.
+              A kid who had no masculine or feminine role models, which left me entirely confused about what makes someone a man - and someone whose core wound is abandonment, which made it difficult to trust intimacy in any form.
             </p>
             <p>
-              When I got older I became bigger and more capable. Took on more leadership roles and filled into a performance of
-              traditional masculinity. I picked my battles, wore a facade of strength, practiced stoicism, provided for the people
-              around me, stayed disconnected from my emotions and from the people around me.
+              I grew up with a chip on my shoulder. With a defensive posture that hurt and pushed others away out of a deep fear and desire to protect myself.
+              I had a sense of greater potential with no means to fully tap into it without completely self-destructing.
             </p>
             <p>
-              It's taken the lows in my adult life when this mode of being just didn't work anymore to seek another way. When being
-              strong isolated me, stoicism made me disconnect from my family and friends, inability to talk feelings led to the end
-              of relationships, filling a provider role without addressing my own needs first led to burn out.
+              It took rock bottom to start me down a path toward figuring things out. Broke. Dumped. Nearly homeless. Credit cards maxed.
+              Every relationship either pushed away or choosing to leave. Waking up each morning with a desire to die.
             </p>
             <p>
-              Mens work (breathwork, coaching) has shown me the tools and path to another way of being in the world. One that has
-              made me more whole. One that asks me to be in my body, feeling deeply the pain, joy, love, fear and welcoming it all.
-              One that reminds me to lead myself and others with compassion and connection first.
+              Until the pandemic. When life leveled the field. I got lucky. I didn't just survive the greatest disruption of our generation - I survived myself.
+              A new opportunity to work fell into my lap. I got back on my feet. I found a therapist. I joined a group of men and was quickly promoted to leadership.
+              I found purpose. And I've been making the most of that purpose ever since.
+            </p>
+            <p>
+              I've been to the depths of my own psyche through plant medicines, through shadow work, through sharing my deepest shame and being witnessed.
+              I've sat with countless men and held space for their experiences. Shared in their pain. Their struggles. And ultimately their triumph.
+            </p>
+            <p>
+              Through this journey, I learned that healing isn't about becoming someone new - it's about remembering who you were before the wounds taught you to hide.
+              That masculinity isn't something to perform, but something to embody through presence, vulnerability, and purpose.
             </p>
           </div>
         </div>

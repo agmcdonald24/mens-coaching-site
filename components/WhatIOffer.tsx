@@ -19,24 +19,17 @@ export default function WhatIOffer() {
           {/* Text */}
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              I work with a mix of group facilitation coaching, and breathwork.
-              This is because these modalities have been transformative in my own personal
-              work and I love utilizing them to support others in their growth. I work to
-              provide an experience that focuses on two things - building embodiment and
-              providing opportunities to practice intimacy & authentic relating in safe and
-              supportive containers.
+              This isn't rah-rah motivational content or drill sergeant accountability. This is deep, somatic work - building connection with yourself, understanding your deepest wounds, and creating foundation to honor your needs without abandoning yourself.
             </p>
             <p>
-              I'll challenge you to choose what you really want, what you believe is possible, and to see yourself for all of
-              your unique human experience. Standing for you in your highest and truest expression of yourself.
+              I facilitate weekly men's groups where we practice vulnerability, witness each other's struggles, and build the brotherhood that many of us never had.
+              I offer 1:1 coaching for men who want intensive, personalized support as they navigate their specific challenges. And I teach Oxygen Advantage breathwork as a tool for nervous system regulation - learning to stay present when activation wants you to run.
             </p>
             <p>
-              I'll ask you to show up alongside me and others, bringing the fullness of who you are. Your creativity, curiosity,
-              fears, joy, shame - whatever comes up.
+              My approach integrates somatic healing, shadow work, and the messy, non-linear reality of actual growth. This isn't quick-fix self-help. It's a lifelong commitment to a path that never ends - but transforms everything along the way.
             </p>
             <p>
-              Because bringing the fullness of who you are into relationship, not editing down who you are, that is the path to
-              more meaningful connection and belonging.
+              This isn't an easy path and it isn't for everyone. But if you're ready to stop running - from yourself, from intimacy, from the life you actually want to build - I'm here to walk it with you.
             </p>
           </div>
         </div>

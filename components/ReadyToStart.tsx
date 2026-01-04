@@ -3,34 +3,34 @@ export default function ReadyToStart() {
     {
       title: "1:1 Coaching",
       description:
-        "Deep personalized work to help you overcome blocks, gain clarity, and step into alignment with who you really are.",
+        "Personalized coaching tailored to your unique journey. Work directly with me to overcome challenges, clarify your purpose and step into your fullest masculine expression.",
       features: [
         "Weekly 1-on-1 sessions",
         "Customized coaching plans",
-        "Accountability & support",
-        "Tools for emotional work"
+        "Goal setting and accountability",
+        "Ongoing support and guidance"
       ]
     },
     {
       title: "Mens Group",
       description:
-        "A community of men committed to authentic connection, vulnerability, and supporting each other in personal growth.",
+        "Join a community of men committed to personal growth, authentic connection, and living with purpose. Our weekly group provides a safe space to explore masculinity, vulnerability, and brotherhood.",
       features: [
         "Weekly meetings in Pittsburgh",
         "Safe, confidential container",
-        "Practice authentic relating",
-        "Brotherhood & belonging"
+        "Authentic male connection",
+        "Accountability and support"
       ]
     },
     {
       title: "Breathwork Sessions",
       description:
-        "Transformative conscious breathing practices to release stored tension, trauma, and create space for healing.",
+        "Experience transformative conscious breathing techniques that release stored tension, trauma, and emotional blockages. Breathwork creates space for deeper self-awareness and personal growth.",
       features: [
         "Individual & group sessions",
-        "Guided breathwork techniques",
+        "Guided breathing techniques",
         "Emotional release work",
-        "Body-based healing"
+        "Stress and anxiety reduction"
       ]
     }
   ];

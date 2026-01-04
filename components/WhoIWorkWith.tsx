@@ -10,18 +10,13 @@ export default function WhoIWorkWith() {
           {/* Text */}
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              I work specifically with men who are ready to get real. Men who are tired of
-              putting on a performance, showing up how they think they should be perceived.
+              I work with men in their late 20s to 40s who are capable of more but can't quite access it.
+              Men who feel stuck in patterns they intellectually understand but can't seem to break.
+              Men who've achieved success on paper but still feel disconnected from themselves and incapable of real intimacy.
+              Men who know they're built for depth, purpose, and aliveness - but every time they reach for it, old wounds pull them back into self-sabotage or withdrawal.
             </p>
             <p>
-              Men who want to heal, to feel, to connect and be known. To be vulnerable
-              and authentic with the people in their lives and not be ashamed of who they
-              really are.
-            </p>
-            <p>
-              Men who are ready to step forward in their life. To stop waiting for someone
-              to give them permission and to start living in alignment with what they
-              actually want.
+              If you're reading this and something resonates, you're probably one of them.
             </p>
           </div>
 
