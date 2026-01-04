@@ -23,7 +23,7 @@ export default function WhoIWorkWith() {
           {/* Image */}
           <div className="w-full h-80 rounded-lg overflow-hidden bg-gray-300">
             <img
-              src="/images/group-fire.jpg"
+              src="/images/menfire.png"
               alt="Men around fire"
               className="w-full h-full object-cover"
             />

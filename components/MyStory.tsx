@@ -11,14 +11,14 @@ export default function MyStory() {
           <div className="flex flex-col items-center space-y-6">
             <div className="w-48 h-48 rounded-full overflow-hidden bg-gray-200">
               <img
-                src="/images/childhood-photo.jpg"
+                src="/images/me.png"
                 alt="Childhood photo"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="w-48 h-48 rounded-full overflow-hidden bg-gray-200">
               <img
-                src="/images/adult-photo.jpg"
+                src="/images/meman.png"
                 alt="Adult photo"
                 className="w-full h-full object-cover"
               />

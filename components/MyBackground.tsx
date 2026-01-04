@@ -10,7 +10,7 @@ export default function MyBackground() {
           {/* Image */}
           <div className="w-full h-80 rounded-lg overflow-hidden bg-gray-300">
             <img
-              src="/images/background.jpg"
+              src="/images/menlift.png"
               alt="Background"
               className="w-full h-full object-cover"
             />

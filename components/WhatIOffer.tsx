@@ -10,7 +10,7 @@ export default function WhatIOffer() {
           {/* Image */}
           <div className="w-full h-80 rounded-lg overflow-hidden bg-gray-300">
             <img
-              src="/images/coaching-session.jpg"
+              src="/images/meanman.png"
               alt="Coaching session"
               className="w-full h-full object-cover"
             />

@@ -22,7 +22,7 @@ export default function WhatChanges() {
           {/* Image */}
           <div className="w-full h-80 rounded-lg overflow-hidden bg-gray-300">
             <img
-              src="/images/transformation.jpg"
+              src="/images/calmme.png"
               alt="Man in contemplation"
               className="w-full h-full object-cover"
             />
