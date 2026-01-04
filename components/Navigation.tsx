@@ -4,9 +4,11 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <div className="text-[rgb(184,144,87)] text-2xl font-bold tracking-wider">
-              AM
-            </div>
+            <img
+              src="/icon.jpeg"
+              alt="Andrew McDonald"
+              className="h-10 w-auto"
+            />
           </div>
 
           <div>
