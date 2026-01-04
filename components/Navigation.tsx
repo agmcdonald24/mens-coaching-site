@@ -5,7 +5,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <img
-              src="/icon.jpeg"
+              src="/images/icon.jpeg"
               alt="Andrew McDonald"
               className="h-10 w-auto"
             />
