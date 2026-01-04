@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       id="home"
       className="relative pt-16 min-h-[600px] flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: 'url(/images/hero-background.jpg)' }}
+      style={{ backgroundImage: 'url(/images/background.jpeg)' }}
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
