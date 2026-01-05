@@ -8,7 +8,8 @@ export default function Contact() {
     email: "",
     phone: "",
     interest: "",
-    message: ""
+    message: "",
+    website: "" // Honeypot field
   });
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -16,6 +17,13 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+
+    // Honeypot check - if filled, it's a bot
+    if (formData.website) {
+      // Silently reject spam
+      setIsSubmitting(false);
+      return;
+    }
 
     try {
       const response = await fetch('https://formspree.io/f/mrebjpky', {
@@ -28,7 +36,7 @@ export default function Contact() {
 
       if (response.ok) {
         setSubmitted(true);
-        setFormData({ name: "", email: "", phone: "", interest: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", interest: "", message: "", website: "" });
         setTimeout(() => {
           setSubmitted(false);
         }, 5000);
@@ -90,6 +98,20 @@ export default function Contact() {
                 </div>
               ) : (
                 <>
+                  {/* Honeypot field - hidden from users, catches bots */}
+                  <div className="hidden" aria-hidden="true">
+                    <label htmlFor="website">Website</label>
+                    <input
+                      type="text"
+                      id="website"
+                      name="website"
+                      value={formData.website}
+                      onChange={handleChange}
+                      tabIndex={-1}
+                      autoComplete="off"
+                    />
+                  </div>
+
                   <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
                       Name *
