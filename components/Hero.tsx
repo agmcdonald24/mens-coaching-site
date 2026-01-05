@@ -14,8 +14,7 @@ export default function Hero() {
           For Men to be Real
         </h1>
         <p className="text-white text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-          Men's groups, 1:1 coaching, and breathwork sessions to guide you to a
-          more open, performance-free relationship.
+          Men's groups, 1:1 coaching, and breathwork for men ready to move from performance to authenticity.
         </p>
       </div>
     </section>
