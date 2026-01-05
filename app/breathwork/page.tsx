@@ -17,8 +17,8 @@ export default function BreathworkTimer() {
 
   // Initialize audio elements
   useEffect(() => {
-    gong1Ref.current = new Audio("/sounds/gong1.wav");
-    gong2Ref.current = new Audio("/sounds/gong2.wav");
+    gong1Ref.current = new Audio("/sounds/Gong1.wav");
+    gong2Ref.current = new Audio("/sounds/Gong2.wav");
 
     return () => {
       if (gong1Ref.current) gong1Ref.current.pause();
