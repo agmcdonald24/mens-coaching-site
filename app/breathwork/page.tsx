@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 export default function BreathworkTimer() {
   const [duration, setDuration] = useState(5); // minutes
@@ -89,7 +91,9 @@ export default function BreathworkTimer() {
   };
 
   return (
-    <div className="min-h-screen bg-[rgb(245,242,235)] flex items-center justify-center p-4">
+    <>
+      <Navigation />
+      <div className="min-h-screen bg-[rgb(245,242,235)] flex items-center justify-center p-4 pt-20">
       <div className="max-w-2xl w-full bg-white rounded-lg shadow-lg p-8 sm:p-12">
         <h1 className="text-4xl sm:text-5xl font-bold text-[rgb(20,30,70)] text-center mb-12">
           Coherent Breath Timer
@@ -187,6 +191,8 @@ export default function BreathworkTimer() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 }
