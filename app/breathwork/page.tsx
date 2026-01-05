@@ -12,8 +12,8 @@ export default function BreathworkTimer() {
 
   const gong1Ref = useRef<HTMLAudioElement | null>(null);
   const gong2Ref = useRef<HTMLAudioElement | null>(null);
-  const intervalIdRef = useRef<NodeJS.Timeout | null>(null);
-  const breathIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalIdRef = useRef<number | null>(null);
+  const breathIntervalRef = useRef<number | null>(null);
 
   // Initialize audio elements
   useEffect(() => {
