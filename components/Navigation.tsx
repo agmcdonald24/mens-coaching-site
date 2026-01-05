@@ -11,12 +11,18 @@ export default function Navigation() {
             />
           </div>
 
-          <div>
+          <div className="flex items-center gap-6">
+            <a
+              href="#story"
+              className="text-[rgb(184,144,87)] hover:text-[rgb(200,170,120)] transition-colors text-sm"
+            >
+              My Story
+            </a>
             <a
               href="#contact"
               className="text-[rgb(184,144,87)] hover:text-[rgb(200,170,120)] transition-colors text-sm"
             >
-              Have a question? <span className="underline">Contact</span>
+              Contact
             </a>
           </div>
         </div>

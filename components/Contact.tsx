@@ -36,7 +36,7 @@ export default function Contact() {
       }
     } catch (error) {
       console.error('Form submission error:', error);
-      alert('There was an error submitting the form. Please email andrew@menscoachpgh.com directly.');
+      alert('There was an error submitting the form. Please email andrew@breathepgh.com directly.');
     } finally {
       setIsSubmitting(false);
     }
@@ -62,7 +62,7 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Get in Touch</h3>
               <div className="space-y-2 text-gray-700">
                 <p><strong>Location:</strong> Pittsburgh, PA</p>
-                <p><strong>Email:</strong> andrew@menscoachpgh.com</p>
+                <p><strong>Email:</strong> andrew@breathepgh.com</p>
               </div>
             </div>
 
