@@ -53,7 +53,7 @@ export default function BreathworkTimer() {
     const totalSeconds = duration * 60;
 
     // Timer countdown
-    intervalIdRef.current = setInterval(() => {
+    intervalIdRef.current = window.setInterval(() => {
       elapsed += 1;
       setCurrentTime(elapsed);
 
@@ -63,7 +63,7 @@ export default function BreathworkTimer() {
     }, 1000);
 
     // Breath cycles
-    breathIntervalRef.current = setInterval(() => {
+    breathIntervalRef.current = window.setInterval(() => {
       currentBreathState = currentBreathState === "in" ? "out" : "in";
       setBreathState(currentBreathState);
       playGong(currentBreathState === "in" ? 1 : 2);
