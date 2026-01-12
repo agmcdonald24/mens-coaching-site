@@ -75,13 +75,13 @@ export default function Contact() {
 
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Men's Group</h3>
-              <p className="text-gray-700">Weekly meetings - Sundays at 6PM</p>
+              <p className="text-gray-700">Weekly meetings - Mondays at 7PM</p>
             </div>
 
             <div className="mt-8 p-6 bg-[rgb(245,242,235)] rounded-lg">
-              <h4 className="font-bold text-gray-900 mb-2">Open House - January 5th</h4>
+              <h4 className="font-bold text-gray-900 mb-2">Meetings Beginning - January 19th</h4>
               <p className="text-gray-700">
-                New to men's work? Join us for a free open house to experience the group and meet other men on the path.
+                New to men's work? Drop a message and lets get in touch.
               </p>
             </div>
           </div>
@@ -170,7 +170,6 @@ export default function Contact() {
                     >
                       <option value="">Select an option</option>
                       <option value="mens-group">Men's Group</option>
-                      <option value="open-house">Open House - January 5th</option>
                       <option value="breathwork">Breathwork Sessions</option>
                       <option value="coaching">1-on-1 Coaching</option>
                       <option value="general">General Inquiry</option>
