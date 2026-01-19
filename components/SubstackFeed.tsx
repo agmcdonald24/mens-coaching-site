@@ -18,9 +18,8 @@ export default function SubstackFeed() {
     const fetchPosts = async () => {
       try {
         // Using RSS2JSON service to convert Substack RSS to JSON
-        // Update 'andrewmcdonald' to your actual Substack subdomain
         const response = await fetch(
-          `https://api.rss2json.com/v1/api.json?rss_url=https://andrewmcdonald.substack.com/feed`
+          `https://api.rss2json.com/v1/api.json?rss_url=https://mcdonaldgandrew.substack.com/feed`
         );
         const data = await response.json();
 
@@ -66,7 +65,7 @@ export default function SubstackFeed() {
               Check out my latest thoughts and reflections on men's work, authenticity, and personal growth.
             </p>
             <a
-              href="https://andrewmcdonald.substack.com"
+              href="https://mcdonaldgandrew.substack.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[rgb(20,30,70)] text-white py-3 px-8 rounded-md font-semibold hover:bg-[rgb(30,40,80)] transition-colors"
@@ -128,7 +127,7 @@ export default function SubstackFeed() {
 
         <div className="text-center">
           <a
-            href="https://andrewmcdonald.substack.com"
+            href="https://mcdonaldgandrew.substack.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[rgb(20,30,70)] text-white py-3 px-8 rounded-md font-semibold hover:bg-[rgb(30,40,80)] transition-colors"

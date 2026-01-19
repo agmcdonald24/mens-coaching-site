@@ -25,7 +25,7 @@ export default function Navigation() {
               Breathwork
             </a>
             <a
-              href="https://andrewmcdonald.substack.com"
+              href="https://mcdonaldgandrew.substack.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[rgb(184,144,87)] hover:text-[rgb(200,170,120)] transition-colors text-sm"
