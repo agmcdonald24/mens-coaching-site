@@ -6,6 +6,7 @@ import WhatIOffer from "@/components/WhatIOffer";
 import WhatChanges from "@/components/WhatChanges";
 import MyBackground from "@/components/MyBackground";
 import ReadyToStart from "@/components/ReadyToStart";
+import SubstackFeed from "@/components/SubstackFeed";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <WhatChanges />
         <MyBackground />
         <ReadyToStart />
+        <SubstackFeed />
         <Contact />
       </main>
       <Footer />
