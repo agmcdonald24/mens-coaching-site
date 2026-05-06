@@ -1,59 +1,54 @@
-# Coherent Breath Timer - Python Version
+# Coherent Breath Timer
 
-A breathwork timer application with alternating breath cycles and gong sounds.
+Simple terminal-based breathwork timer with gong sounds.
 
-## Features
+## Setup
 
-- Configurable duration (1-30 minutes)
-- Adjustable breath interval (3-10 seconds)
-- Volume control
-- Visual "Breathe In" / "Breathe Out" animation
-- Alternating gong sounds for each breath cycle
-
-## Requirements
-
-Install the required Python packages:
+Install pygame:
 
 ```bash
 pip install pygame
 ```
 
-Note: `tkinter` comes pre-installed with most Python distributions.
-
-## Sound Files
-
-The timer expects two sound files:
-- `Gong1.wav` - Played on "Breathe In"
-- `Gong2.wav` - Played on "Breathe Out"
-
-Place these files in either:
-- `sounds/` directory, or
-- `public/sounds/` directory (same as the website)
-
-The timer will work without sound files but will print a warning.
-
-## Running the Timer
-
-```bash
-python3 breathwork_timer.py
-```
-
-Or make it executable:
-
-```bash
-chmod +x breathwork_timer.py
-./breathwork_timer.py
-```
+Sound files (Gong1.wav, Gong2.wav) should be in `public/sounds/` or `sounds/` directory.
 
 ## Usage
 
-1. Select your desired duration (in minutes)
-2. Choose the breath interval (in seconds) - 6 seconds is recommended for coherent breathing
-3. Adjust the volume to your preference
-4. Click "Start" to begin
-5. Follow the "Breathe In" / "Breathe Out" prompts
-6. Click "Stop" to end the session early
+**Default** (5 minutes, 6 second intervals):
+```bash
+python3 breathwork.py
+```
 
-## Coherent Breathing
+**Custom duration**:
+```bash
+python3 breathwork.py 10          # 10 minutes
+```
 
-Coherent breathing typically uses a 6-second interval (6 seconds in, 6 seconds out) for a rate of 5 breaths per minute, which is associated with optimal heart rate variability and relaxation.
+**Custom duration and interval**:
+```bash
+python3 breathwork.py 15 5        # 15 minutes, 5 second intervals
+```
+
+**Custom duration, interval, and volume**:
+```bash
+python3 breathwork.py 20 6 0.7    # 20 minutes, 6 seconds, 70% volume
+```
+
+**Stop early**: Press `Ctrl+C`
+
+## Examples
+
+```bash
+# Quick 1-minute session
+python3 breathwork.py 1
+
+# Standard coherent breathing (5 breaths/minute)
+python3 breathwork.py 10 6
+
+# Longer session with quieter volume
+python3 breathwork.py 20 6 0.3
+```
+
+## GUI Version
+
+For a graphical version with controls, use `breathwork_timer.py` instead.
