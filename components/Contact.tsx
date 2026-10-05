@@ -75,13 +75,16 @@ export default function Contact() {
 
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Men's Group</h3>
-              <p className="text-gray-700">Weekly meetings - Mondays at 7PM</p>
+              <div className="space-y-1 text-gray-700">
+                <p><strong>In Person:</strong> Mondays, 7–9 PM</p>
+                <p><strong>Virtual:</strong> Wednesdays, 7–9 PM</p>
+              </div>
             </div>
 
             <div className="mt-8 p-6 bg-[rgb(245,242,235)] rounded-lg">
-              <h4 className="font-bold text-gray-900 mb-2">Meetings Beginning - January 19th</h4>
+              <h4 className="font-bold text-gray-900 mb-2">Now Meeting Weekly</h4>
               <p className="text-gray-700">
-                New to men's work? Drop a message and lets get in touch.
+                New to men's work? Drop a message and let's get in touch.
               </p>
             </div>
           </div>
@@ -169,7 +172,8 @@ export default function Contact() {
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[rgb(184,144,87)] bg-white"
                     >
                       <option value="">Select an option</option>
-                      <option value="mens-group">Men's Group</option>
+                      <option value="mens-group-in-person">Men's Group - In Person (Mondays)</option>
+                      <option value="mens-group-virtual">Men's Group - Virtual (Wednesdays)</option>
                       <option value="breathwork">Breathwork Sessions</option>
                       <option value="coaching">1-on-1 Coaching</option>
                       <option value="general">General Inquiry</option>
